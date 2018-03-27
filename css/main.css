@@ -1,0 +1,129 @@
+body {
+    padding-bottom: 2em;
+}
+
+.header-big {
+    font-size: 12em;
+    margin-left: 0.5em;
+}
+
+.header-md {
+    font-size: 4em;
+    margin-right: 1em;
+}
+
+.content-text {
+    font-size: 1.5em;
+    margin-right: 1em;
+}
+
+.design {
+    background-color: #717171;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 10px;
+}
+
+.spacing {
+    letter-spacing: 0.3em;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.row {
+    background-color: #717171;
+    color: black;
+}
+
+.bg-svg {
+    background: url('../img/portfoliobanner_face2.svg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 100%;
+}
+
+.face {
+    height: 900px;
+    overflow: hidden;
+}
+
+.face img {
+    height: 100%;
+}
+
+.top-1 {
+    margin-top: 1em;
+}
+
+.my-center {
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+@media screen and (max-width: 375px){
+    .header-big {
+        font-size: 3em;
+        margin-left: 0;
+    }
+    .header-md {
+        font-size: 1.5em;
+    }
+    .content-text {
+        font-size: 1em;
+    }
+    .face {
+        height: 250px;
+        overflow: hidden;
+    }
+    .face img {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 376px) {
+    .header-big {
+        font-size: 3.5em;
+        margin-left: 0;
+    }
+    .content-text {
+        font-size: 1em;
+    }
+    .header-md {
+        font-size: 2em;
+    }
+    .face {
+        height: 300px;
+        overflow: hidden;
+    }
+    .face img {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 770px) {
+    .header-big {
+        font-size: 7.5em;
+        margin-left: 0;
+    }
+    .content-text {
+        font-size: 1em;
+    }
+    .header-md {
+        font-size: 3em;
+    }
+    .face {
+        height: 550px;
+        overflow: hidden;
+    }
+    .face img {
+        height: 100%;
+    }
+}
