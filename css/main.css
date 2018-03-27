@@ -68,6 +68,11 @@ body {
     background-color: white;
 }
 
+.project-text {
+    font-size: 3em;
+    color: black;
+}
+
 @media screen and (max-width: 375px){
     .header-big {
         font-size: 3em;
