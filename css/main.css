@@ -1,5 +1,6 @@
 body, html {
-    background: url('../img/circles-light.png')
+    background: url('../img/circles-light.png');
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
 }
 
 body {
@@ -12,7 +13,8 @@ img {
 
 .header-big {
     font-size: 12em;
-    margin-left: 0.5em;
+    margin-left: 0.1em;
+    font-weight: bold;
 }
 
 .header-md {
@@ -24,6 +26,11 @@ img {
     text-align: center;
     font-size: 2.5em;
     margin-right: 1em;
+    font-family: 'Bree Serif', serif;
+}
+
+.comfortaa {
+    font-family: 'Comfortaa', cursive;
 }
 
 .design {
@@ -99,6 +106,7 @@ img {
     font-size: 1.5em;
     margin-top: 1em;
     color: black;
+    font-family: 'Fjalla One', sans-serif;    
 }
 
 @media screen and (max-width: 414px){
