@@ -1,5 +1,13 @@
+body, html {
+    background: url('../img/circles-light.png')
+}
+
 body {
     padding-bottom: 2em;
+}
+
+img {
+    border-radius: 10px;
 }
 
 .header-big {
@@ -21,7 +29,6 @@ body {
 .design {
     background-color: #1887a8;
     padding: 1em;
-    margin-top: 2em;
     border-radius: 10px;
 }
 
@@ -35,6 +42,10 @@ body {
 
 .another-color {
     background-color: rgb(206, 50, 50)
+}
+
+.another-color-2 {
+    background-color: #1887a8;
 }
 
 .row {

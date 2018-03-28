@@ -9,4 +9,14 @@ $(function() {
             scrollTop: $("#projects").offset().top - 30
         }, 400);
     });
+    $('a[href="#art"]').click(function() {
+        $('html, body').animate({
+            scrollTop: $("#art").offset().top - 30
+        }, 400);
+    });
+    $('a[href="#about"]').click(function() {
+        $('html, body').animate({
+            scrollTop: $("#about").offset().top - 30
+        }, 400);
+    });
 });
